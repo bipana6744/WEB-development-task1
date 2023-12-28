@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head><title>personal portfolio</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav  class="navbar navbar-dark navbar-expand-md py-0 fixed-top" id="mainNavbar">
+    <a class="navbar-brand p-2" href="#">REALBILSS</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navLinks">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="aboutme.html" class="nav-link">AboutMe</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">project</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact </a>
+            </li>
+            <li class="nav-item">
+                <a href="E:\uiux\intenship project in frontend\resume.pdf" download="resume.pdf" class="nav-link">Download CV</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<div class="container about-container col-2">
+    <h2 class="text-center">About Me</h2>
+
+    <img src="E:\uiux\intenship project in frontend\img\girl.jpg" alt="Profile Picture" class="profile-img">
+
+    <p>Hello! My name is Bipana Bhandari,As a front-end developer, I play a crucial role in shaping the user experience of websites and applications.My
+        work is at the forefront of the user interface, making the digital world more engaging and user-friendly.</p>
+
+    <p>I believe in continuous learning and staying updated with the latest trends and technologies. </p>
+
+    <p>In my free time, I love to travel. Feel free to connect with me on social media!</p>
+
+    <!-- Add your social media links here -->
+    <div class="social-links">
+        <a href="https://www.facebook.com/bipana.bhandari.39904/" target="_blank"><img src="E:\uiux\intenship project in frontend\img\facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/bee_pana_bhandari/" target="_blank"><img src="E:\uiux\intenship project in frontend\img\instagram.jpg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/bipana-bhandari-a8b069237/" target="_blank"><img src="E:\uiux\intenship project in frontend\img\linkedin.png" alt="LinkedIn"></a>
+        <!-- Add more social media icons as needed -->
+    </div>
+</div>
+    
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap dropdowns, modals, etc.) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Your Custom JavaScript -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>

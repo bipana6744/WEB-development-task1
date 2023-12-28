@@ -1,0 +1,168 @@
+body{
+  background-color: rgb(53, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#mainNavbar .navbar-brand{
+  color: greenyellow;
+  font-size: 40PX;
+}
+.photo{
+  display: flex;
+}
+#navLinks .navbar-nav { 
+  list-style: none; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+#navLinks .nav-item {
+  margin-right: 10px;
+}
+
+#navLinks .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+#navLinks .nav-link:hover {
+  color: red;
+}
+
+#mainNavbar .nav-link:hover{
+color: red;
+}
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+}
+.container-fluid #maincontainer{
+  justify-content: center;
+  align-items: center;
+  
+}
+.background {
+  background-image: url('img/background2.jpg'); 
+  background-size: cover;
+  background-position: center;
+ 
+}
+#maincontent{
+  display: flex;
+  padding-left: 50px;
+}
+#maincontainer #frontend{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#maincontainer #hello{
+  font-size: 70px;
+  display: flex;
+}
+.container-fluid .form-group{
+  color: white;
+  font-size: 20px;
+}
+.contact-container {
+  max-width: 600px;
+  color: white;
+  margin: 80px auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px yellow;
+}
+.about-container {
+  max-width: 800px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-img {
+  max-width: auto;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.social-links {
+  display: flex;
+  justify-content: center; /* Center the social links horizontally */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.social-links a {
+  margin: 0 10px; /* Add some spacing between social links */
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 40px; /* Adjust the width of the social media icons */
+  height: auto;
+  border-radius: 50%; /* Make the social media icons circular */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.social-links img:hover {
+  transform: scale(1.2); /* Increase the size of the icon on hover */
+}
+.skills-container {
+  max-width: 800px;
+  margin: 80px auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px yellow;
+}
+
+h2 {
+  color: #007bff;
+}
+
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+h2 {
+  color: #007bff;
+}
+
+.contact-info {
+  margin-top: 20PX;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+.navbar.scrolled {
+  background: rgb(206, 128, 206);
+  transition: background 10ms;
+  }
+@media(max-width:1500px){
+#maincontent h1{
+  font-weight: 100;
+  font-size: 3rem;
+}
+}
